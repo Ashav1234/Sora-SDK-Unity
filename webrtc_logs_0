@@ -1,0 +1,49 @@
+[000:000][54160] (unity_context.cpp:124): Log initialized
+[000:000][54160] (unity_context.cpp:46): Renderer Type is kUnityGfxRendererD3D11
+[000:000][54160] (device_info_ds.cc:75): DeviceInfoDS: CoInitializeEx(NULL, COINIT_APARTMENTTHREADED) => RPC_E_CHANGED_MODE, error 0x80010106
+[000:002][54160] (device_info_ds.cc:206): GetDeviceInfo Logitech HD Webcam C270
+[000:002][54160] (device_list.cpp:55): EnumVideoCapturer: device_name=Logitech HD Webcam C270 unique_name=\\?\usb#vid_046d&pid_0825&mi_00#7&16caecc2&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+[000:004][54160] (audio_device_module_win.cc:516): CreateWindowsCoreAudioAudioDeviceModuleFromInputAndOutput
+[000:004][54160] (audio_device_module_win.cc:98): WindowsAudioDeviceModule
+[000:004][54160] (audio_device_module_win.cc:128): Init
+[000:004][54160] (audio_device_buffer.cc:65): AudioDeviceBuffer::ctor
+[000:004][54160] (audio_device_module_win.cc:182): RecordingDevices
+[000:005][54160] (audio_device_module_win.cc:238): SetRecordingDevice
+[000:006][54160] (audio_device_module_win.cc:273): RecordingIsAvailable
+[000:006][54160] (audio_device_module_win.cc:208): RecordingDeviceName
+[000:009][54160] (device_list.cpp:109): EnumAudioRecording: device_name=Default - Microphone (C270 HD WEBCAM) unique_name={0.0.1.00000000}.{99a0d6ee-05e9-446b-85e0-7a1a45dc575b}
+[000:009][54160] (audio_device_module_win.cc:238): SetRecordingDevice
+[000:011][54160] (audio_device_module_win.cc:273): RecordingIsAvailable
+[000:011][54160] (audio_device_module_win.cc:208): RecordingDeviceName
+[000:014][54160] (device_list.cpp:109): EnumAudioRecording: device_name=Communication - Microphone (C270 HD WEBCAM) unique_name={0.0.1.00000000}.{99a0d6ee-05e9-446b-85e0-7a1a45dc575b}
+[000:014][54160] (audio_device_module_win.cc:238): SetRecordingDevice
+[000:017][54160] (audio_device_module_win.cc:273): RecordingIsAvailable
+[000:017][54160] (audio_device_module_win.cc:208): RecordingDeviceName
+[000:019][54160] (device_list.cpp:109): EnumAudioRecording: device_name=Headset Microphone (Oculus Virtual Audio Device) unique_name={0.0.1.00000000}.{1df71ec2-1eca-4084-b310-7c78524a4e2e}
+[000:019][54160] (audio_device_module_win.cc:103): ~WindowsAudioDeviceModule
+[000:019][54160] (audio_device_module_win.cc:156): Terminate
+[000:019][54160] (audio_device_buffer.cc:76): AudioDeviceBuffer::~dtor
+[000:020][54160] (audio_device_module_win.cc:516): CreateWindowsCoreAudioAudioDeviceModuleFromInputAndOutput
+[000:020][54160] (audio_device_module_win.cc:98): WindowsAudioDeviceModule
+[000:020][54160] (audio_device_module_win.cc:128): Init
+[000:020][54160] (audio_device_buffer.cc:65): AudioDeviceBuffer::ctor
+[000:020][54160] (audio_device_module_win.cc:175): PlayoutDevices
+[000:021][54160] (audio_device_module_win.cc:224): SetPlayoutDevice
+[000:022][54160] (audio_device_module_win.cc:251): PlayoutIsAvailable
+[000:022][54160] (audio_device_module_win.cc:191): PlayoutDeviceName
+[000:024][54160] (device_list.cpp:162): EnumAudioPlayout: device_name=Default - Speakers (Realtek(R) Audio) unique_name={0.0.0.00000000}.{06855305-6e61-40af-b8b4-5617989ad802}
+[000:024][54160] (audio_device_module_win.cc:224): SetPlayoutDevice
+[000:025][54160] (audio_device_module_win.cc:251): PlayoutIsAvailable
+[000:025][54160] (audio_device_module_win.cc:191): PlayoutDeviceName
+[000:027][54160] (device_list.cpp:162): EnumAudioPlayout: device_name=Communication - Headphones (Oculus Virtual Audio Device) unique_name={0.0.0.00000000}.{3b2ebf4e-3b96-4fe1-87d3-a259b944831e}
+[000:027][54160] (audio_device_module_win.cc:224): SetPlayoutDevice
+[000:029][54160] (audio_device_module_win.cc:251): PlayoutIsAvailable
+[000:029][54160] (audio_device_module_win.cc:191): PlayoutDeviceName
+[000:031][54160] (device_list.cpp:162): EnumAudioPlayout: device_name=Speakers (Realtek(R) Audio) unique_name={0.0.0.00000000}.{06855305-6e61-40af-b8b4-5617989ad802}
+[000:031][54160] (audio_device_module_win.cc:224): SetPlayoutDevice
+[000:033][54160] (audio_device_module_win.cc:251): PlayoutIsAvailable
+[000:033][54160] (audio_device_module_win.cc:191): PlayoutDeviceName
+[000:036][54160] (device_list.cpp:162): EnumAudioPlayout: device_name=S24D300 (NVIDIA High Definition Audio) unique_name={0.0.0.00000000}.{1dc69209-14da-4252-8548-ed814d4ef0b0}
+[000:036][54160] (audio_device_module_win.cc:103): ~WindowsAudioDeviceModule
+[000:036][54160] (audio_device_module_win.cc:156): Terminate
+[000:036][54160] (audio_device_buffer.cc:76): AudioDeviceBuffer::~dtor
